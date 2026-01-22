@@ -134,6 +134,9 @@ When Part 2 is complete, create a second PR with your code.
 
 ## 📁 Repository Contents
 📦 welcome-cpan252-lab0
+
 ├── README.md ← You are here!
+
 ├── STUDENT_SUBMISSIONS.md ← Add your name here (Part 1)
+
 ├── GITHUB_CHEATSHEET.md ← Quick guide and best practices 
