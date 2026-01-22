@@ -1,101 +1,226 @@
 # Lab 0 Student Submissions
 
-Welcome! Add your name and section here when you complete Lab 0.
+Welcome! Follow these instructions to complete Lab 0 and submit your work.
 
-## Instructions
-1. Add your name in the same format as line the first entry
-2. Mark that you've completed Lab 0 with ✅
-3. Add your GitHub username
-4. Create a PR with these changes
-5. Once merged, you're officially done!
+---
+
+## Step-by-Step Instructions
+
+### Step 1: Clone the Repository and Pull Latest Changes from Main
+
+First, make sure you have the latest version of the code from the main branch:
+
+```bash
+# Clone the repository (do this once)
+git clone <repository-url>
+cd <repository-folder>
+
+# Fetch the latest changes from main
+git fetch origin
+
+# Switch to main and pull the latest commits
+git checkout main
+git pull origin main
+```
+
+### Step 2: Create a Branch with Your Name
+
+Create a new branch for your work using your name (use lowercase, hyphens instead of spaces):
+
+```bash
+# Create and switch to your new branch
+git checkout -b firstname-lastname
+
+# Example:
+# git checkout -b zainab-aamir
+```
+
+### Step 3: Make Your Changes
+
+Edit the student roster table and add your information:
+
+1. Add your name in the same format as the first entry (Last Name, First Name)
+2. Fill in your Student ID
+3. Add your GitHub username (your @handle, e.g., @username)
+4. Add your Humber email (format: firstname.lastname@student.humber.ca)
+5. Mark Lab 0 as complete with ✅
+6. Add your Group Name (or leave blank if not assigned yet)
+
+**Example:**
+```
+| 1 | Aamir, Zainab B. | 123456789 | @zaainab-git | zainab.aamir@student.humber.ca | ✅ Complete | [GroupName] |
+```
+
+### Step 4: Commit Your Changes
+
+Once you've updated your row in the table, commit your changes:
+
+```bash
+# Stage your changes
+git add .
+
+# Or stage only specific files
+git add README.md
+
+# Commit with a clear message
+git commit -m "Add Zainab Aamir to Lab 0 roster"
+```
+
+### Step 5: Push Your Branch to GitHub
+
+Push your branch to the remote repository:
+
+```bash
+# Push your branch
+git push origin firstname-lastname
+
+# Example:
+# git push origin zainab-aamir
+```
+
+### Step 6: Create a Pull Request
+
+Go to the GitHub repository in your browser and create a pull request:
+
+1. Navigate to the **Pull Requests** tab
+2. Click the **New Pull Request** button
+3. Set the base branch to **main**
+4. Set the compare branch to **your-branch-name** (e.g., zainab-aamir)
+5. Add a title: "Add [Your Name] to Lab 0 roster"
+6. Click **Create Pull Request**
+
+Alternatively, GitHub will often show a prompt after you push—just click "Create Pull Request" there.
+
+### Step 7: Wait for Approval and Merge
+
+Once your PR is created, submit the **PR link/number** on Blackboard. Your instructor will review and merge it.
+
+After the PR is merged, you're officially done with Lab 0! ✅
+
+---
+
+## Important Guidelines
+
+- **Don't modify other students' rows!** Only edit your own line
+- **Keep the format consistent** (use pipes | to separate columns)
+- **GitHub username** is your @handle, not your name
+- **Humber email** should be: firstname.lastname@student.humber.ca
+- **Branch name** should use your full name (e.g., firstname-lastname)
+- **Keep main branch clean**—always do your work on your personal branch
+
+---
+
+## Common Git Commands Reference
+
+```bash
+# Check your current branch
+git branch
+
+# See the status of your changes
+git status
+
+# View your commits
+git log --oneline
+
+# Switch between branches
+git checkout main
+git checkout firstname-lastname
+
+# Pull latest changes from main (if needed)
+git pull origin main
+
+# Undo the last commit (before pushing)
+git reset --soft HEAD~1
+
+# View differences before committing
+git diff
+```
+
+---
+
+## Need Help?
+
+If you encounter issues:
+
+1. **Check your branch**: `git branch` — make sure you're on your personal branch, not main
+2. **Check for conflicts**: If you see merge conflicts, contact your instructor
+3. **Verify your changes**: `git status` before committing
+4. **Check the PR**: Make sure your PR is pointing to main as the base branch
 
 ---
 
 ## Student Roster
 
-| # | Name | Student ID | GitHub Username |Lab 0 Complete | Group Name|
-|---|---|---|---|---|---|
-| 0 | Christin, Mugisha |  [Student ID] | @github-username | [ ] Not Started | |[Groupname]|
-| 1 | Aamir, Zainab B. | [Student ID] | @github-username | [ ] Not Started |
-| 2 | Abdirahman, Arwa | [Student ID] | @github-username | [ ] Not Started |
-| 3 | Aharon, Ben | [Student ID] | @github-username | [ ] Not Started |
-| 4 | Akinola, Oluwaseun | [Student ID] | @github-username | [ ] Not Started |
-| 5 | Arif, Fahad | [Student ID] | @github-username | [ ] Not Started |
-| 6 | Auckloo, Veevek | [Student ID] | @github-username | [ ] Not Started |
-| 7 | Augustine, Kerlan G. | [Student ID] | @github-username | [ ] Not Started |
-| 8 | Baptiste, Carl | [Student ID] | @github-username | [ ] Not Started |
-| 9 | Basit, Abdul | [Student ID] | @github-username | [ ] Not Started |
-| 10 | Bazhutina, Iuliia | [Student ID] | @github-username | [ ] Not Started |
-| 11 | Bourgeois, Brayden | [Student ID] | @github-username | [ ] Not Started |
-| 12 | Carreiro, Nicholas | [Student ID] | @github-username | [ ] Not Started |
-| 13 | Cheema, Ahmad | [Student ID] | @github-username | [ ] Not Started |
-| 14 | Cobb, Edgar | [Student ID] | @github-username | [ ] Not Started |
-| 15 | Crosse, Geoffrey | [Student ID] | @github-username | [ ] Not Started |
-| 16 | Darras, Mohammed | [Student ID] | @github-username | [ ] Not Started |
-| 17 | Farah, Maryan | [Student ID] | @github-username | [ ] Not Started |
-| 18 | Ferej, Nebil | [Student ID] | @github-username | [ ] Not Started |
-| 19 | Figueroa, Trish | [Student ID] | @github-username | [ ] Not Started |
-| 20 | Friesen, Abby | [Student ID] | @github-username | [ ] Not Started |
-| 21 | Greville, Dustin | [Student ID] | @github-username | [ ] Not Started |
-| 22 | Grover, Ramanpreet S. | [Student ID] | @github-username | [ ] Not Started |
-| 23 | Hailu, Beniam | [Student ID] | @github-username | [ ] Not Started |
-| 24 | Hamm, Steven | [Student ID] | @github-username | [ ] Not Started |
-| 25 | Harrak, Nour | [Student ID] | @github-username | [ ] Not Started |
-| 26 | Hernandez, Gabriel | [Student ID] | @github-username | [ ] Not Started |
-| 27 | Hossain, Mushfika | [Student ID] | @github-username | [ ] Not Started |
-| 28 | Hunyinbo, Kayle K. | [Student ID] | @github-username | [ ] Not Started |
-| 29 | Hunyinbo, Mauwanu Thankgod | [Student ID] | @github-username | [ ] Not Started |
-| 30 | Jama, Musa | [Student ID] | @github-username | [ ] Not Started |
-| 31 | Joseph, Harry | [Student ID] | @github-username | [ ] Not Started |
-| 32 | Kehal, Davinder S. | [Student ID] | @github-username | [ ] Not Started |
-| 33 | Khalil, Jamil | [Student ID] | @github-username | [ ] Not Started |
-| 34 | Khan, Maheen | [Student ID] | @github-username | [ ] Not Started |
-| 35 | LeCraw, Darryl | [Student ID] | @github-username | [ ] Not Started |
-| 36 | Lee, Tyler | [Student ID] | @github-username | [ ] Not Started |
-| 37 | Leung, Clarance | [Student ID] | @github-username | [ ] Not Started |
-| 38 | Ly, Tyler | [Student ID] | @github-username | [ ] Not Started |
-| 39 | Masur Jayatheertha, Abhishek | [Student ID] | @github-username | [ ] Not Started |
-| 40 | Mchedlishvili, Ilia | [Student ID] | @github-username | [ ] Not Started |
-| 41 | Mpesha, Julila M. | [Student ID] | @github-username | [ ] Not Started |
-| 42 | Mukhtar, Lena | [Student ID] | @github-username | [ ] Not Started |
-| 43 | Nahas, Joseph | [Student ID] | @github-username | [ ] Not Started |
-| 44 | Newman, Michael R. | [Student ID] | @github-username | [ ] Not Started |
-| 45 | Nguyen, Annie N. | [Student ID] | @github-username | [ ] Not Started |
-| 46 | Nguyen, Nha Ngoc Jenny N. | [Student ID] | @github-username | [ ] Not Started |
-| 47 | Park, Noah H. | [Student ID] | @github-username | [ ] Not Started |
-| 48 | Patel, Raj | [Student ID] | @github-username | [ ] Not Started |
-| 49 | Peralta, Divine | [Student ID] | @github-username | [ ] Not Started |
-| 50 | Phillips, Ashton F. | [Student ID] | @github-username | [ ] Not Started |
-| 51 | Powell, Othniel M. | [Student ID] | @github-username | [ ] Not Started |
-| 52 | Pushparajah, Krishna | [Student ID] | @github-username | [ ] Not Started |
-| 53 | Ragoonanan, Anupa R. | [Student ID] | @github-username | [ ] Not Started |
-| 54 | Rahim, Ahmed | [Student ID] | @github-username | [ ] Not Started |
-| 55 | Sahota, Kuldip S. | [Student ID] | @github-username | [ ] Not Started |
-| 56 | Sampaga, Ralph Vincent C. | [Student ID] | @github-username | [ ] Not Started |
-| 57 | Samsun, . | [Student ID] | @github-username | [ ] Not Started |
-| 58 | Sanders, Jasmine | [Student ID] | @github-username | [ ] Not Started |
-| 59 | Sharma, Aakarshan | [Student ID] | @github-username | [ ] Not Started |
-| 60 | Sharma, Karn | [Student ID] | @github-username | [ ] Not Started |
-| 61 | Starovoitov, Steven | [Student ID] | @github-username | [ ] Not Started |
-| 62 | Tariq, Aneesa | [Student ID] | @github-username | [ ] Not Started |
-| 63 | Teibo, Lana | [Student ID] | @github-username | [ ] Not Started |
-| 64 | Tekin, Berra | [Student ID] | @github-username | [ ] Not Started |
-| 65 | Thavarasa, Sajan | [Student ID] | @github-username | [ ] Not Started |
-| 66 | Tigse-Pena, Lynneth | [Student ID] | @github-username | [ ] Not Started |
-| 67 | Tolentino, Andre | [Student ID] | @github-username | [ ] Not Started |
-| 68 | Tsegay, Abel | [Student ID] | @github-username | [ ] Not Started |
-| 69 | Ustaoglu, Neslihan | [Student ID] | @github-username | [ ] Not Started |
-| 70 | Wang, Xia | [Student ID] | @github-username | [ ] Not Started |
-
----
-
-```
-
-## Notes
-
-- **Don't modify other students' rows!**
-- **Keep the format consistent** (use pipes | to separate)
-- **GitHub username is your @handle**, not your name
-- **Once your PR is merged, you can add the PR number**
-
----
+| # | Name | Student ID | GitHub Username | Humber Email | Lab 0 Complete | Group Name |
+|---|---|---|---|---|---|---|
+| 0 | Christin, Mugisha | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 1 | Aamir, Zainab B. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 2 | Abdirahman, Arwa | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 3 | Aharon, Ben | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 4 | Akinola, Oluwaseun | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 5 | Arif, Fahad | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 6 | Auckloo, Veevek | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 7 | Augustine, Kerlan G. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 8 | Baptiste, Carl | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 9 | Basit, Abdul | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 10 | Bazhutina, Iuliia | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 11 | Bourgeois, Brayden | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 12 | Carreiro, Nicholas | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 13 | Cheema, Ahmad | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 14 | Cobb, Edgar | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 15 | Crosse, Geoffrey | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 16 | Darras, Mohammed | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 17 | Farah, Maryan | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 18 | Ferej, Nebil | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 19 | Figueroa, Trish | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 20 | Friesen, Abby | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 21 | Greville, Dustin | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 22 | Grover, Ramanpreet S. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 23 | Hailu, Beniam | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 24 | Hamm, Steven | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 25 | Harrak, Nour | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 26 | Hernandez, Gabriel | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 27 | Hossain, Mushfika | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 28 | Hunyinbo, Kayle K. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 29 | Hunyinbo, Mauwanu Thankgod | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 30 | Jama, Musa | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 31 | Joseph, Harry | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 32 | Kehal, Davinder S. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 33 | Khalil, Jamil | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 34 | Khan, Maheen | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 35 | LeCraw, Darryl | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 36 | Lee, Tyler | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 37 | Leung, Clarance | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 38 | Ly, Tyler | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 39 | Masur Jayatheertha, Abhishek | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 40 | Mchedlishvili, Ilia | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 41 | Mpesha, Julila M. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 42 | Mukhtar, Lena | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 43 | Nahas, Joseph | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 44 | Newman, Michael R. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 45 | Nguyen, Annie N. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 46 | Nguyen, Nha Ngoc Jenny N. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 47 | Park, Noah H. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 48 | Patel, Raj | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 49 | Peralta, Divine | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 50 | Phillips, Ashton F. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 51 | Powell, Othniel M. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 52 | Pushparajah, Krishna | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 53 | Ragoonanan, Anupa R. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 54 | Rahim, Ahmed | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 55 | Sahota, Kuldip S. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 56 | Sampaga, Ralph Vincent C. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 57 | Samsun, . | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 58 | Sanders, Jasmine | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 59 | Sharma, Aakarshan | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 60 | Sharma, Karn | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 61 | Starovoitov, Steven | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 62 | Tariq, Aneesa | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 63 | Teibo, Lana | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 64 | Tekin, Berra | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 65 | Thavarasa, Sajan | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 66 | Tigse-Pena, Lynneth | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 67 | Tolentino, Andre | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 68 | Tsegay, Abel | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 69 | Ustaoglu, Neslihan | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 70 | Wang, Xia | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
