@@ -6,7 +6,7 @@
 
 ## 🚀 What is This Repository?
 
-Welcome! This is your **Lab 0 starter repository** for CPAN-252. Here you'll learn:
+Welcome! This is your **Lab 0 starter repository** for CPAN-228. Here you'll learn:
 - How to use GitHub and Git professionally
 - How to submit your work via Pull Requests
 - Spring Boot fundamentals (Dependency Injection, IoC Container)
@@ -133,3 +133,7 @@ When Part 2 is complete, create a second PR with your code.
 ---
 
 ## 📁 Repository Contents
+📦 welcome-cpan252-lab0
+├── README.md ← You are here!
+├── STUDENT_SUBMISSIONS.md ← Add your name here (Part 1)
+├── GITHUB_CHEATSHEET.md ← Quick guide and best practices 
