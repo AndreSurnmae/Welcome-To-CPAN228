@@ -122,7 +122,7 @@ After the PR is merged, you're officially done with Lab 0! ✅
 | 6 | Auckloo, Veevek | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
 | 7 | Augustine, Kerlan G. | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
 | 8 | Baptiste, Carl | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
-| 9 | Basit, Abdul | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 9 | Basit, Abdul | [N01381962] | @github-bkbasit73 | [bkbasit73@gmail.com] | [ ] Complete | [Group 02] |
 | 10 | Bazhutina, Iuliia | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
 | 11 | Bourgeois, Brayden | [N01708893] | @Braydenb1204 | [n01708893@humber.ca] | [x] Completed | [No Group Yet] |
 | 12 | Carreiro, Nicholas | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
