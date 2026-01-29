@@ -117,7 +117,7 @@ After the PR is merged, you're officially done with Lab 0! ✅
 | 1 | Aamir, Zainab B. | [n01513753] | @NiqabiPrincess | [n01513753@humber.ca] |[🍄✅ ] Completed | [Northpoint] |
 | 2 | Abdirahman, Arwa | N01709742 | @Arwa-sectionD | N01709742@humber.ca | Completed | Northpoint |
 | 3 | Aharon, Ben | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
-| 4 | Akinola, Oluwaseun | [Student ID] | @github-username | [Humber Email] | [ ] Not Started | [GroupName] |
+| 4 | Akinola, Oluwaseun | [N01717356] | @Sam-Ola-24| [n01717356@humber.ca] | [✅ ] Complete | [Umbra] |
 | 5 | Arif, Fahad | n01729165 | MuiLuigi | n01729165@humber.ca | Completed | Star Mode Studios |
 | 6 | Auckloo, Veevek | [N01314187] | @Aviish11 | [n01314187@humber.ca] | [🥶] Completed | [Group 24] |
 | 7 | Augustine, Kerlan G. | n01375372 | KerlanHumber | n01375372@humber.ca | [✅] Completed | Northpoint |
